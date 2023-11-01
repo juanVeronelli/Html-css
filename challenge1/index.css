@@ -1,0 +1,75 @@
+
+*,*::after,*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'cooveltica R2';
+    src: url('./Fonts/coolveticarg.otf') format('truetype');
+    font-size: 90pt;
+}
+
+@font-face {
+    font-family: 'Roboto R1';
+    src: url('./Fonts/Roboto-Light.ttf') format('truetype');
+    font-size: 30pt;
+}
+
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body > main {
+    text-align: center;
+}
+
+body > main > div {
+    padding: 15px;
+}
+
+main > .main_titleSection > .main_title {
+font-family: 'cooveltica R2';
+margin-bottom: 15px;
+color: #0a2ff1;
+}
+
+main > .main_titleSection > .main_subtitle {
+    font-family: 'Roboto R1';
+    color: #04146c;
+}
+
+main > .main_buttonsSection {
+    width: 100%;
+    display: grid;
+    row-gap: 20px;
+
+}
+
+main > .main_buttonsSection > button {
+    width: 45%;
+    margin: auto;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+main > .main_buttonsSection > #btn1{
+    background-color: #0a2ff1;
+    color: #ffff;
+    font-family: 'Roboto R1';
+    border: none;
+}
+
+main > .main_buttonsSection > #btn2{
+    border: 1px solid #0a2ff1;
+    background-color: #ffff;
+    color: #04146c;
+    font-family: 'Roboto R1';
+}
