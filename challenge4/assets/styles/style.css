@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap');
+
+
+@font-face {
+    font-family:'cooveltica R2';
+    src: url('../fonts/coolvetica\ rg\ \(2\).otf') format('truetype');
+}
+
+body > main > .main__content {
+    width: 80%;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+body > main > .main__content > h1 {
+    font-family: 'cooveltica R2';
+    font-size: 120px;
+    color: #0a2ff1;
+}
+
+body > main > .main__content > .content__cards{
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+body > main > .main__content > .content__cards > .card {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    background-color: #eff2ff;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+body > main > .main__content > .content__cards > .card:first-child > img {
+   width: 18%;
+}
+
+body > main > .main__content > .content__cards > .card > img {
+    width: 25%;
+    margin: auto;
+}
+
+body > main > .main__content > .content__cards > .card > h2 {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    color: #0a2ff1;
+}
+
+body > main > .main__content > .content__cards > .card > p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin-top: -.1rem;
+    color: #04146c;
+}
