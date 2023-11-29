@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap');
+
+
+*,*::after,*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+
+.header__background{
+    background-image: url("../images/fondo.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+}
+
+.header__background > h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    font-weight: 900;
+    position: absolute;
+    background-color: #fff;
+    left: 37%;
+    top: 20%;
+    mix-blend-mode: screen;
+    border-radius: 15px;
+    padding: 10px 5px;
+}
+
+.main__text > h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    font-weight: 900;
+    margin-top: 2rem;
+}
+
+.main__hover {
+    background: url("../images/foto.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    height: 50vh;
+    width: 50vh;
+    cursor: pointer;
+}
+
+.main__hover > .hover__content {
+    width: 80%;
+    height: 100%;
+    visibility: hidden;
+    padding: 15px;
+    background-color: #e84393;
+}
+
+.hover__content > h3 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.hover__content > ul > li {
+    list-style: none;
+    margin-top: 2rem;
+}
+
+.hover__content > ul > li > p {
+    margin-top: 7px;
+}
+
+.main__hover:hover .hover__content{
+    visibility: visible;
+}
