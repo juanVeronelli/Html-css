@@ -1,0 +1,19 @@
+.custom-width {
+    width: 200px; /
+  }
+  label{
+    color: #04146c;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size:24px ;
+  }
+  input{
+    border-color: #8a9af1;
+  }
+
+  button{
+    font-family: 'Mulish', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: #5974ff;
+  }
